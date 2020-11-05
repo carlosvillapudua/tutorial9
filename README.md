@@ -9,19 +9,19 @@ When testing, a developer doesn’t want conditions outside of their own written
 According to the framework site, the best way to set up Mockito is by adding “mockito-core” as a dependency in Gradle or Maven.  
 
 *For Gradle:*
-'''
+```
 repositories { jcenter() }
 dependencies { testCompile “org.mockito:mockito-core:2.+” }
-'''
+```
 
 *For Maven:*
-'''
+```
 <dependency>
 	<groupId>org.mockito</groupId>
 	<artifactId>mockito-core</artifactId>
 	<version>3.6.0</version>
 </dependency>
-'''
+```
 
 The framework jar files can be downloaded from the framework’s Bintray repository for manual dependency management.
 
